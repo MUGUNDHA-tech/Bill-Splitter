@@ -1,20 +1,12 @@
-.login-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background:hotpink;
-  }
-  
-  h2 {
-    margin-bottom: 15px;
+.page-container {
+    text-align: center;
+    padding: 50px;
   }
   
   input {
     width: 250px;
     padding: 10px;
-    margin: 8px 0;
+    margin: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }

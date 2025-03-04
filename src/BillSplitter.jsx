@@ -33,7 +33,6 @@ const BillSplitter = ({ onBack }) => {
     <div className="container">
       <div className="card">
         <h2>Bill Splitter</h2>
-
         <label>Bill Amount (₹)</label>
         <input type="number" placeholder="Enter bill amount" value={billAmount} onChange={(e) => setBillAmount(e.target.value)} />
         <br></br>
@@ -51,7 +50,6 @@ const BillSplitter = ({ onBack }) => {
           <p>Total Bill: ₹{totalBill}</p>
           <p>Each Person Pays: ₹{eachPersonPays}</p>
         </div>
-
         <button className="back" onClick={onBack}>Back to Start</button>
       </div>
     </div>
